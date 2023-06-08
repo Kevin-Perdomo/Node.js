@@ -28,7 +28,7 @@ broke.addEventListener("click", quebra);
 let cont = 0;
 function quebra(event) {
     console.log(cont);
-    if(cont == 10){
+    if(cont >= 9){
         broke.setAttribute("src", "img/quebrada.jpg");
         document.getElementById("threat").innerHTML = "Olha a merda que voce fez seu devfobico ridiculo";
         document.getElementById("corpo").setAttribute("style", "background-color: red;");
